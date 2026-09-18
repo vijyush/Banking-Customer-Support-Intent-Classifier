@@ -2,12 +2,6 @@
 
 An end-to-end NLP project that routes customer-support messages across **77 banking intents**. It compares a strong sparse-text baseline with a transformer-backed semantic model, selects the champion on a validation split, evaluates once on the official test split, and sends uncertain messages to human review.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB)
-![NLP](https://img.shields.io/badge/NLP-BANKING77-5C4EE5)
-![Transformer](https://img.shields.io/badge/Transformer-MiniLM-F9AB00)
-![License](https://img.shields.io/badge/code-MIT-green)
-![Data](https://img.shields.io/badge/data-CC%20BY%204.0-blue)
-
 ## Business problem
 
 Banking support teams receive short, ambiguous messages such as “cash not received,” “transfer stuck,” or “card still coming.” Correctly identifying the intent can speed up routing, but blindly automating uncertain predictions creates a poor customer experience.
