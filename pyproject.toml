@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "banking-intent-classifier"
+version = "1.0.0"
+description = "Human-in-the-loop banking support intent classification with sparse and transformer models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Burra Vijyusha"}]
+dependencies = [
+  "pandas>=2.2,<4",
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.5,<2",
+  "scipy>=1.12,<2",
+  "joblib>=1.4,<2",
+  "sentence-transformers>=3.3,<7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

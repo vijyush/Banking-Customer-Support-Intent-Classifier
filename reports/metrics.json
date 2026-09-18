@@ -1,0 +1,85 @@
+{
+  "dataset": "BANKING77",
+  "dataset_rows": {
+    "train": 10003,
+    "test": 3080
+  },
+  "categories": 77,
+  "selection_metric": "validation macro F1",
+  "selected_model": "minilm_logistic_regression",
+  "target_accepted_accuracy": 0.95,
+  "validation_metrics": {
+    "tfidf_linear_svc": {
+      "accuracy": 0.905396402398401,
+      "macro_f1": 0.9045815462605349,
+      "weighted_f1": 0.9046857142997744,
+      "top_3_accuracy": 0.9680213191205863
+    },
+    "minilm_logistic_regression": {
+      "accuracy": 0.9187208527648234,
+      "macro_f1": 0.9208078271574166,
+      "weighted_f1": 0.9188900831636027,
+      "top_3_accuracy": 0.9793471019320453
+    }
+  },
+  "official_test_metrics": {
+    "tfidf_linear_svc": {
+      "accuracy": 0.9090909090909091,
+      "macro_f1": 0.9091126481379563,
+      "weighted_f1": 0.9091126481379561,
+      "top_3_accuracy": 0.9681818181818181
+    },
+    "minilm_logistic_regression": {
+      "accuracy": 0.9275974025974026,
+      "macro_f1": 0.9273662776446046,
+      "weighted_f1": 0.9273662776446047,
+      "top_3_accuracy": 0.9827922077922078
+    }
+  },
+  "overlap_removed_test_metrics": {
+    "removed_exact_text_overlaps": 6,
+    "remaining_test_rows": 3074,
+    "tfidf_linear_svc": {
+      "accuracy": 0.9089134677944047,
+      "macro_f1": 0.9089321375587146,
+      "weighted_f1": 0.9089309869772292,
+      "top_3_accuracy": 0.9681197137280416
+    },
+    "minilm_logistic_regression": {
+      "accuracy": 0.9274560832791151,
+      "macro_f1": 0.9272288075726319,
+      "weighted_f1": 0.9272208100524786,
+      "top_3_accuracy": 0.9827586206896551
+    }
+  },
+  "handoff_policy": {
+    "tfidf_linear_svc": {
+      "threshold": 0.30636004503189973,
+      "coverage": 0.9020652898067955,
+      "accepted_accuracy": 0.9549483013293943,
+      "accepted_examples": 1354
+    },
+    "minilm_logistic_regression": {
+      "threshold": 0.42980307111373317,
+      "coverage": 0.9267155229846769,
+      "accepted_accuracy": 0.9583033788641265,
+      "accepted_examples": 1391
+    }
+  },
+  "official_test_handoff": {
+    "tfidf_linear_svc": {
+      "threshold": 0.30636004503189973,
+      "coverage": 0.9168831168831169,
+      "accepted_accuracy": 0.9525495750708215,
+      "accepted_examples": 2824,
+      "reviewed_examples": 256
+    },
+    "minilm_logistic_regression": {
+      "threshold": 0.42980307111373317,
+      "coverage": 0.926948051948052,
+      "accepted_accuracy": 0.9590192644483363,
+      "accepted_examples": 2855,
+      "reviewed_examples": 225
+    }
+  }
+}

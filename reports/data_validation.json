@@ -1,0 +1,11 @@
+{
+  "train_rows": 10003,
+  "test_rows": 3080,
+  "categories": 77,
+  "train_duplicate_rows": 4,
+  "test_duplicate_rows": 1,
+  "train_test_text_overlap": 6,
+  "texts_with_conflicting_labels": 0,
+  "minimum_train_examples_per_intent": 35,
+  "maximum_train_examples_per_intent": 187
+}
