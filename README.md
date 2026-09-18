@@ -110,9 +110,7 @@ banking-intent-classifier/
 │   └── model_comparison.csv
 ├── src/banking_intent/
 ├── tests/
-├── INTERVIEW_GUIDE.md
 ├── MODEL_CARD.md
-├── RESUME_BULLETS.md
 ├── predict.py
 └── run_pipeline.py
 ```
@@ -167,9 +165,4 @@ The project uses [BANKING77](https://github.com/PolyAI-LDN/task-specific-dataset
 
 This is a portfolio and educational project, not a production banking system. BANKING77 contains example service queries rather than a complete bank-specific taxonomy. Before deployment, teams would need domain-specific validation, privacy controls, drift monitoring, multilingual testing, latency/load testing, escalation procedures, and review of the economic cost of routing mistakes.
 
-## Author
-
-**Burra Vijyusha**  
-B.Tech, Metallurgical Engineering and Materials Science  
-Indian Institute of Technology Indore
 
